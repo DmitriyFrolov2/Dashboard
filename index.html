@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Admin Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <img src="icons/view-dashboard.svg" class="dashboard-image">
+    <h1 class="dashboard-title">Dashboard</h1>
+
+    <ul class="dashboard-first">
+      <img src="icons/home.svg">
+      <li>Home</li>
+      <img src="icons/card-account-details-outline.svg">
+      <li>Profile</li>
+      <img src="icons/message-reply.svg">
+      <li>Messages</li>
+      <img src="icons/clock-time-three.svg">
+      <li>History</li>
+      <img src="icons/note-multiple.svg">
+      <li>Tasks</li>
+      <img src="icons/account-group.svg">
+      <li>Communities</li>
+    </ul>
+
+    <ul class="dashboard-second">
+      <img src="icons/cog.svg">
+      <li>Settings</li>
+      <img src="icons/help-box.svg">
+      <li>Support</li>
+      <img src="icons/shield-check.svg">
+      <li>Privacy</li>
+    </ul>
+  </div>
+
+  <div class="navbar">
+    <div class="searchbar">
+      <img src="icons/magnify.svg">
+      <input type="text" id="search-entry">
+    </div>
+
+    <div class="profile">
+      <img class="icon" src="icons/bell-ring-outline.svg">
+      <img class="profile-pic" src="profiles/Dancing_lizard_whatsapp.gif">
+      <h3>Per Jay</h3>
+    </div>
+
+    <div class="greeting">
+        <img src="profiles/Dancing_lizard_whatsapp.gif" id="greeting-image" class="highlight">
+        <p>Hi there,</p>
+        <h1>Human!</h1>
+        <audio id="greeting-audio" src="audio.mp3"></audio>
+    </div>
+
+    <div class="buttons">
+      <button>New</button>
+      <button>Upload</button>
+      <button>Share</button>
+    </div>
+  </div>
+
+  <div class="canvas">
+    <h3 class="project-header">Your Projects</h3>
+    <div class="projects">
+      <div class="card">
+        <h3>Super Cool Project</h3>
+        <p>
+          Proin eu dui id tortor finibus malesuada eu nec enim.
+          In ornare purus et vestibulum varius. Ut viverra massa dolor,
+          ut rutrum felis pulvinar in.
+        </p>
+        <div class="icons">
+          <img src="icons/star-plus-outline.svg">
+          <img src="icons/eye-plus-outline.svg">
+          <img src="icons/source-fork.svg">
+        </div>
+      </div>
+      <div class="card">
+        <h3>Dunman 0.05%</h3>
+        <p>
+          Proin eu dui id tortor finibus malesuada eu nec enim.
+          In ornare purus et vestibulum varius. Ut viverra massa dolor,
+          ut rutrum felis pulvinar in.
+        </p>
+        <div class="icons">
+          <img src="icons/star-plus-outline.svg">
+          <img src="icons/eye-plus-outline.svg">
+          <img src="icons/source-fork.svg">
+        </div>
+      </div>
+      <div class="card">
+        <h3>Woolie Meeting Schedule</h3>
+        <p>
+          Proin eu dui id tortor finibus malesuada eu nec enim.
+          In ornare purus et vestibulum varius. Ut viverra massa dolor,
+          ut rutrum felis pulvinar in.
+        </p>
+        <div class="icons">
+          <img src="icons/star-plus-outline.svg">
+          <img src="icons/eye-plus-outline.svg">
+          <img src="icons/source-fork.svg">
+        </div>
+      </div>
+      <div class="card">
+        <h3>Water Tracker</h3>
+        <p>
+          Proin eu dui id tortor finibus malesuada eu nec enim.
+          In ornare purus et vestibulum varius. Ut viverra massa dolor,
+          ut rutrum felis pulvinar in.
+        </p>
+        <div class="icons">
+          <img src="icons/star-plus-outline.svg">
+          <img src="icons/eye-plus-outline.svg">
+          <img src="icons/source-fork.svg">
+        </div>
+      </div>
+      <div class="card">
+        <h3>Recipe Manager</h3>
+        <p>
+          Proin eu dui id tortor finibus malesuada eu nec enim.
+          In ornare purus et vestibulum varius. Ut viverra massa dolor,
+          ut rutrum felis pulvinar in.
+        </p>
+        <div class="icons">
+          <img src="icons/star-plus-outline.svg">
+          <img src="icons/eye-plus-outline.svg">
+          <img src="icons/source-fork.svg">
+        </div>
+      </div>
+      <div class="card">
+        <h3>Battle Dogs</h3>
+        <p>
+          Proin eu dui id tortor finibus malesuada eu nec enim.
+          In ornare purus et vestibulum varius. Ut viverra massa dolor,
+          ut rutrum felis pulvinar in.
+        </p>
+        <div class="icons">
+          <img src="icons/star-plus-outline.svg">
+          <img src="icons/eye-plus-outline.svg">
+          <img src="icons/source-fork.svg">
+        </div>
+      </div>
+    </div>
+
+    <h3 class="announcement-header">Announcements</h3>
+
+    <div class="announcement">
+      <h4>Site Maintenance</h4>
+      <p>
+      Vestibulum condimentum tellus lacus,
+      in accumsan elit maximus ac. Donec
+      hendrerit sodales congue ...
+      </p>
+      <hr>
+      <h4>Community Share Day</h4>
+      <p>
+      Nam vel lectus tincidunt, rutrum nulla
+      eu, ornare libero. Aliquam dictum
+      accumsan porttitor ...
+      </p>
+      <hr>
+      <h4>Updated Privacy Policy</h4>
+      <p>
+      Phasellus efficitur nisi eget elit
+      consectetur, eget condimentum ante
+      auctor. Cras fringilla sagittis sem in
+      mattis ...
+      </p>
+    </div>
+
+    <h3 class="trending-header">Trending</h3>
+
+    <div class="trending">
+      <div class="app">
+        <img src="profiles/Dancing_lizard_whatsapp.gif">
+        <p class="tag">@Dun</p>
+        <p class="name">DunBot</p>
+      </div>
+      <div class="app">
+        <img src="profiles/Dancing_lizard_whatsapp.gif">
+        <p class="tag">@Gyattler</p>
+        <p class="name">OnlyLees</p>
+      </div>
+      <div class="app">
+        <img src="profiles/Dancing_lizard_whatsapp.gif">
+        <p class="tag">@Ben</p>
+        <p class="name">SuperKode</p>
+      </div>
+      <div class="app">
+        <img src="profiles/Dancing_lizard_whatsapp.gif">
+        <p class="tag">@Bot</p>
+        <p class="name">Bot</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+        document.getElementById('greeting-image').addEventListener('click', function() {
+            var audio = document.getElementById('greeting-audio');
+            audio.play();
+            this.style.boxShadow = '0 0 40px rgba(12, 226, 23, 0.5)';
+            setTimeout(() => {
+                this.style.boxShadow = '';
+            }, 300);
+        });
+    </script>
+</body>
+</html>
